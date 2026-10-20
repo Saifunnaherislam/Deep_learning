@@ -1,8 +1,6 @@
-# Deep_learning
-my deep learning journey and practice projects
 # Deep Learning
 
-Welcome to my Deep Learning learning journey!
+My deep learning learning journey and practice projects.
 
 This repository contains small models and experiments that I build while learning Deep Learning concepts through coursework and practice.
 
@@ -16,8 +14,7 @@ A beginner-level binary classification project that predicts whether a plant nee
 - Python
 - NumPy
 - Pandas
-- TensorFlow
-- Keras
+- TensorFlow / Keras
 
 **Concepts Learned**
 - Data preprocessing
@@ -25,7 +22,6 @@ A beginner-level binary classification project that predicts whether a plant nee
 - Training and testing data split
 - Artificial Neural Networks
 - Dense layers
-- ReLU and Sigmoid activation functions
 - Binary cross-entropy loss
 - Stochastic Gradient Descent (SGD)
 - Model training and validation
@@ -42,11 +38,53 @@ A small, manually created dataset containing 16 observations. It is used for edu
 
 The dataset is too small to build a reliable real-world plant-watering prediction system.
 
+---
+
+### 2. Iris Flower Classification Using Perceptron and ANN
+
+A multiclass classification project using the Iris dataset to classify flowers into three species based on their sepal and petal measurements.
+
+**Technologies Used**
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow / Keras
+
+**Concepts Learned**
+- Exploratory Data Analysis (EDA)
+- Data visualization using pair plots
+- Label encoding
+- Training and testing data split
+- Feature standardization
+- Perceptron classification
+- Artificial Neural Networks
+- Softmax activation
+- Model evaluation using accuracy, precision, recall, and F1-score
+- Training and validation accuracy visualization
+
+**Model Architecture**
+
+Input Layer (4 features) → Hidden Layer (16 neurons, ReLU) → Hidden Layer (8 neurons, ReLU) → Output Layer (3 neurons, Softmax)
+
+**Results**
+- Perceptron accuracy: 86.67%
+- ANN test accuracy: approximately 93.33%
+
+**Dataset**
+
+The Iris dataset contains 150 observations, four numerical features, and three flower species.
+
+---
+
 ## Learning Goals
 
 - Understand neural network fundamentals.
 - Practice implementing deep learning models.
 - Experiment with different activation functions and architectures.
+- Learn data preprocessing and model evaluation techniques.
 - Build a foundation for future Machine Learning and AI research.
 
 More projects will be added as I continue learning.
