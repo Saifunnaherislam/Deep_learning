@@ -209,5 +209,70 @@ The model was evaluated using:
 - Analyze model performance using evaluation metrics and visualizations.
 - Identify and debug inconsistencies between predicted labels and true labels.
 
+## 4. Cat vs Dog Classification Using Convolutional Neural Network (CNN)
+
+A binary image classification project using deep learning to classify images into two categories: cats and dogs. The model was trained using a labeled image dataset and evaluated using accuracy, loss curves, a confusion matrix, and a classification report.
+
+### Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Google Colab
+- Google Drive
+
+### Concepts Learned
+
+- Image dataset preparation and preprocessing
+- Loading images from directory-based datasets
+- Training, validation, and evaluation
+- Convolutional Neural Network (CNN) fundamentals
+- Model compilation using Adam optimizer and binary cross-entropy loss
+- Binary classification using a sigmoid output layer
+- Model training with multiple epochs
+- Training and validation accuracy visualization
+- Training and validation loss visualization
+- Model evaluation using accuracy, precision, recall, and F1-score
+- Confusion matrix analysis
+- Debugging prediction and data-ordering issues
+
+### Model Architecture
+
+The model uses image inputs of size 150 × 150 pixels and a binary output layer to predict whether an image contains a cat or a dog.
+
+### Training Configuration
+
+- **Epochs:** 5
+- **Training time:** Approximately 4 minutes 12 seconds
+- **Batch size:** As configured in the training data generator
+- **Image size:** 150 × 150 pixels
+- **Classes:** Cat and Dog
+
+### Results and Evaluation
+
+The initial evaluation produced an unexpectedly low prediction accuracy of approximately 47.5%, despite the model reporting a much higher evaluation accuracy. This inconsistency was investigated using the class indices, predicted labels, probability outputs, and confusion matrix.
+
+The issue was traced to the prediction and label alignment/data-loading configuration. After correcting the shuffle configuration and rechecking the evaluation, the predictions improved.
+
+The model was evaluated using:
+
+- Evaluation accuracy and prediction accuracy
+- Confusion matrix
+- Classification report
+- Training and validation accuracy curves
+- Training and validation loss curves
+
+
+
+### Learning Goals
+
+- Understand the fundamentals of image classification.
+- Build and train a CNN for a binary classification task.
+- Learn image preprocessing and directory-based data loading.
+- Analyze model performance using evaluation metrics and visualizations.
+- Identify and debug inconsistencies between predicted labels and true labels.
+
 
 *This repository is a work in progress.*
