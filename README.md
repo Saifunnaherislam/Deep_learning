@@ -87,41 +87,60 @@ The Iris dataset contains 150 observations, four numerical features, and three f
 - Learn data preprocessing and model evaluation techniques.
 - Build a foundation for future Machine Learning and AI research.
 
-# MNIST Handwritten Digit Classification
+### 3. MNIST Digit Classification Using Perceptron, ANN and CNN
 
-## Overview
-This project implements and compares three neural network models for handwritten digit classification using the MNIST dataset.
+A handwritten digit classification project that compares the performance of Perceptron, Artificial Neural Network (ANN), and Convolutional Neural Network (CNN) models on the MNIST dataset. The models are trained to classify handwritten digits from 0 to 9 using pixel values as input features.
 
-## Models
-- Perceptron
-- Artificial Neural Network (ANN)
-- Convolutional Neural Network (CNN)
+**Technologies Used**
 
-## Technologies
 - Python
 - NumPy
 - Pandas
 - Matplotlib
-- TensorFlow / Keras
 - Scikit-learn
+- TensorFlow / Keras
 - Google Colab
 
-## Experiments
-- Data preprocessing and normalization
+**Concepts Learned**
+
+- Data loading and preprocessing
+- Image pixel normalization
+- Reshaping image data for neural networks
+- Perceptron classification
+- Artificial Neural Networks (ANN)
+- Convolutional Neural Networks (CNN)
+- Convolution and max pooling
+- Flattening and dense layers
+- Dropout for reducing overfitting
 - Model training and testing
-- Final test accuracy comparison
-- Training and validation accuracy/loss visualization
-- Prediction comparison across models
+- Test accuracy comparison
+- Data visualization and model evaluation
 
-## Evaluation
-The models are evaluated using test accuracy to compare their classification performance.
+**Model Architectures**
 
-## How to Run
-Open `mnist_cnn_classification.ipynb` in Google Colab and run the notebook cells in order.
+- **Perceptron:** A basic classification model using flattened pixel values as input features.
+- **ANN:** A neural network that learns patterns from flattened image data using dense layers.
+- **CNN:** A convolutional neural network that extracts spatial features from images using convolutional and max-pooling layers, followed by dense layers for digit classification.
 
-## Dataset
-MNIST handwritten digit dataset.
+**Dataset**
 
+The project uses a handwritten digit dataset containing 28 × 28 pixel images represented by 784 pixel features. The dataset used in this project contains 42,000 observations.
+
+**Training Details**
+
+- Number of Epochs: 5
+- Total Training Time: 2 minutes 42 seconds
+- Training Environment: Google Colab
+
+The models were trained for 5 epochs, taking approximately 2 minutes and 42 seconds to complete the training process.
+
+**Results**
+
+The test accuracy of Perceptron, ANN, and CNN is evaluated and compared to understand how different neural network architectures perform on handwritten digit classification.
+
+**Learning Outcome**
+
+This project provides practical experience in image classification and demonstrates how CNNs can learn spatial patterns from image data compared with traditional classification and fully connected neural network models.
 More projects will be added as I continue learning.
 
 *This repository is a work in progress.*
