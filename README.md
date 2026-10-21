@@ -87,6 +87,41 @@ The Iris dataset contains 150 observations, four numerical features, and three f
 - Learn data preprocessing and model evaluation techniques.
 - Build a foundation for future Machine Learning and AI research.
 
+# MNIST Handwritten Digit Classification
+
+## Overview
+This project implements and compares three neural network models for handwritten digit classification using the MNIST dataset.
+
+## Models
+- Perceptron
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+
+## Technologies
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- TensorFlow / Keras
+- Scikit-learn
+- Google Colab
+
+## Experiments
+- Data preprocessing and normalization
+- Model training and testing
+- Final test accuracy comparison
+- Training and validation accuracy/loss visualization
+- Prediction comparison across models
+
+## Evaluation
+The models are evaluated using test accuracy to compare their classification performance.
+
+## How to Run
+Open `mnist_cnn_classification.ipynb` in Google Colab and run the notebook cells in order.
+
+## Dataset
+MNIST handwritten digit dataset.
+
 More projects will be added as I continue learning.
 
 *This repository is a work in progress.*
